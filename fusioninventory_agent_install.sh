@@ -21,7 +21,7 @@ dpkg -i fusioninventory-agent_2.4-2_all.deb
 sed -i 14d /etc/fusioninventory/agent.cfg
 sed -i "14i server = http://glpi.gusadev.com/plugins/fusioninventory" /etc/fusioninventory/agent.cfg
 
-sed -i 32d /etc/fusioninventory/agent.cfg
-sed -i "32i delaytime = 60" /etc/fusioninventory/agent.cfg
+sed -i 31d /etc/fusioninventory/agent.cfg
+sed -i "31i delaytime = 60" /etc/fusioninventory/agent.cfg
 
 service fusioninventory-agent restart
