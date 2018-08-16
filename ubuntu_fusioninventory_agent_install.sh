@@ -24,4 +24,5 @@ sed -i "14i server = http://glpi.gusadev.com/plugins/fusioninventory" /etc/fusio
 sed -i 31d /etc/fusioninventory/agent.cfg
 sed -i "31i delaytime = 60" /etc/fusioninventory/agent.cfg
 
-service fusioninventory-agent restart
+systemctl start fusioninventory-agent
+systemctl enable fusioninventory-agent

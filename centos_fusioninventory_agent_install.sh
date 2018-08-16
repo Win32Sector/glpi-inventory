@@ -2,8 +2,6 @@
 
 #Script for installing fusioninventory agent on Ubuntu/Debian
 
-cd /tmp
-
 # Download and install fusioninventory agent
 yum install -y fusioninventory-agent fusioninventory-agent-task-inventory
 
